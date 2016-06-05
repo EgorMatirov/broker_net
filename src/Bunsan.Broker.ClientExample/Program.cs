@@ -42,12 +42,12 @@ namespace Bunsan.Broker.ClientExample
             var sender = new ClientSender(connection_parameters);
             listener.Listen((id, status) =>
             {
-                Console.WriteLine("Got status: id = {0}, status = [{1}, {2}] {3}", 
+                Console.WriteLine("Got status: id = {0}, status = [{1}, {2}] {3}",
                                   id, status.Code, status.Reason,
                                   status.Data != null ? Encoding.ASCII.GetString(status.Data) : "null");
             }, (id, result) =>
             {
-                Console.WriteLine("Got result: id = {0}, result = [{1}, {2}] {3}", 
+                Console.WriteLine("Got result: id = {0}, result = [{1}, {2}] {3}",
                                   id, result.Status, result.Reason,
                                   result.Data != null ? Encoding.ASCII.GetString(result.Data) : "null");
             }, (id, error) =>

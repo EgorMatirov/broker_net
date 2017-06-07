@@ -1,18 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26114.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A77E2485-AAF1-41BE-A69C-BE9FC237C8F6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6FEB8EC-8CA9-4918-9B9F-0E70BE702A81}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bunsan.Broker", "src\Bunsan.Broker\Bunsan.Broker.csproj", "{4F59DBF2-9978-485E-AD83-BD4EF572EC49}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bunsan.Broker", "src\Bunsan.Broker\Bunsan.Broker.xproj", "{4F59DBF2-9978-485E-AD83-BD4EF572EC49}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bunsan.Broker.ClientExample", "src\Bunsan.Broker.ClientExample\Bunsan.Broker.ClientExample.xproj", "{05FD66C4-909C-4E1B-886D-BB2F278EA99A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bunsan.Broker.ClientExample", "src\Bunsan.Broker.ClientExample\Bunsan.Broker.ClientExample.csproj", "{05FD66C4-909C-4E1B-886D-BB2F278EA99A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

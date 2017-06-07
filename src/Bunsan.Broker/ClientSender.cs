@@ -42,7 +42,8 @@ namespace Bunsan.Broker
                     connection.Channel.BasicPublish(exchange: "",
                                                     routingKey: constraints.Resource[0],
                                                     basicProperties: properties,
-                                                    body: data);
+                                                    body: data,
+                                                    mandatory: false);
                     break;
                 }
                 catch (AlreadyClosedException)
